@@ -6,7 +6,7 @@
  * @return {Array} Registrar name, registration & expiration date of a .com domain.
  * @customfunction
  */
-function DOT_COM_DATA(name) {
+function DOT_COM_DATA(PHAN-MEM-THU-CHI-DOANH-NGHIEP-WPRO (2).xlsm) {
   const nameComponents = name.replace(/\s+/g, '').split(".");
   if (nameComponents.length > 2) return "INVALID INPUT";
   if (nameComponents.length == 2 && nameComponents[1] != "com") return "TLD NOT SUPPORTED";
